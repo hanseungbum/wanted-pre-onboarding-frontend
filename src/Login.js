@@ -7,7 +7,7 @@ function Login() {
   const [pwd, setPwd] = useState("");
   const [flag, setFlag] = useState(true);
   useEffect(()=>{
-    if(localStorage.getItem('tokenid') != null)
+    if(localStorage.getItem('tokenid') != null) 
         document.location.href = '/todo';
   },[])
   const checkValid =() =>{
@@ -32,7 +32,7 @@ function Login() {
      fetch('https://pre-onboarding-selection-task.shop/auth/signin', requestOptions)
      .then(response =>{
         if(response.status ==200){
-            alert("로그인 성공");
+            alert("로그인성공");
             return response.json();
         }
             
