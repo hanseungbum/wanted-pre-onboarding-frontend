@@ -1,5 +1,5 @@
 {
-  "homepage": "https://han.wanted.io",
+  "homepage": "https://hanseungbum.github.io/wanted-pre-onboarding-frontend/",
   "name": "onboarding-web",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +17,7 @@
   "scripts": {
 
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b page -d build",
+    "deploy": "gh-pages -b page2 -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
