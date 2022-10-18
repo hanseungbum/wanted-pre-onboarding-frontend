@@ -11,4 +11,5 @@ $ npm start
 
 ### 안내 사항
   1. 배포 url : https://golden-palmier-b94309.netlify.app/
+  2. blog : https://blog.naver.com/souq7635/222902748070
 
