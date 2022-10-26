@@ -57,11 +57,11 @@ $ npm start
               document.location.href = '/todo';
           }});
   ```
-  => 'requestOptions'을 잘 설정한지 궁금
-  => 로그인 클릭 이벤트에서는 http status에따라 분기로 alert창 띄움
-  => 회원가입 동일
+  => 'requestOptions'을 잘 설정한지 궁금   
+  => 로그인 클릭 이벤트에서는 http status에따라 분기로 alert창 띄움   
+  => 회원가입 동일   
  
-  b. todoList
+  b. todoList   
   ``` javascript
   if(btn.innerText == '수정'){
         e.target.parentElement.parentElement.children[1].children[0].disabled = false;
@@ -75,18 +75,18 @@ $ npm start
         e.target.parentElement.parentElement.children[4].children[0].innerText = '수정';
         e.target.parentElement.parentElement.children[5].children[0].innerText = '삭제';
   ```
-  => 타겟의 children 으로 버튼 컨트롤을 하는데 어떤 방식 좋을지?
+  => 타겟의 children 으로 버튼 컨트롤을 하는데 어떤 방식 좋을지?   
 
-  c. 리다이렉트
+  c. 리다이렉트   
   ``` javascript
       if(localStorage.getItem('tokenid') != null) 
         document.location.href = '/todo';
       },[])
   ```
-  => 토큰 아이디가 있다면 해당 url로 이동 (Navigation 기능을 사용하는 것이 더 깔끔하게 보일 것 같음)
-
+  => 토큰 아이디가 있다면 해당 url로 이동 (Navigation 기능을 사용하는 것이 더 깔끔하게 보일 것 같음)   
+   
 4.총평
- 사전과제 통과에만 목적을 둔 것이기 때문에 대충 만든 것이 눈에 보임
- ~~워스트 케이스~~
+ 사전과제 통과에만 목적을 둔 것이기 때문에 대충 만든 것이 눈에 보임   
+ (~~워스트 케이스~~)
 
 
